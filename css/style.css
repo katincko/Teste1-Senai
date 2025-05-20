@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.caixa{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 16px;
+    gap: 32rem;
+    padding: 50px;
+    background-color: #503C3C;
+    color: aliceblue;
+}
+
+.caixa h1{
+    font-size: 40px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: normal;
+}
+
+.lista a{
+    
+    color: aliceblue;
+}
+
+.lista img{
+    max-width: 20px;
+}
+
+body{
+    background-color: #3E3232;
+}
+
