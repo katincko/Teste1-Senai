@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+    color: aliceblue;
 }
 
 .caixa{
@@ -13,7 +13,7 @@
     gap: 32rem;
     padding: 50px;
     background-color: #503C3C;
-    color: aliceblue;
+    
 }
 
 .caixa h1{
@@ -37,7 +37,7 @@
 
 .lista a{
     text-decoration: none;
-    color: aliceblue;
+   
 }
 
 .lista img{
@@ -48,3 +48,38 @@ body{
     background-color: #3E3232;
 }
 
+.receita{
+    background-color: #7E6363;
+    width: 20%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.receita2{
+    background-color: #7E6363;
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.secoes{
+    display: flex;
+    justify-content: center;
+    gap: 30vh;
+    height: 20vh;
+}
+.insta{
+    max-width: 30px;
+}
+
+.insta img{
+    max-width: 250px;
+}
